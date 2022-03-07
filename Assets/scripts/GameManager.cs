@@ -56,10 +56,9 @@ public class GameManager : MonoBehaviour
 	//-Drag--------------------------------------
 	void OnDragStart ()
 	{
-		ball.DesactivateRb ();
+		
 		startPoint = cam.ScreenToWorldPoint (Input.mousePosition);
-
-		trajectory.Show ();
+		
 	}
 
 	void OnDrag ()
@@ -71,9 +70,13 @@ public class GameManager : MonoBehaviour
 
 		//just for debug
 		Debug.DrawLine (startPoint, endPoint);
+		if(force.x > 0.5f || force.y > -0.5f)
+        {
+			ball.DesactivateRb();
+			trajectory.Show();
+			trajectory.UpdateDots(ball.pos, force);
+		}
 
-
-		trajectory.UpdateDots (ball.pos, force);
 	}
 
 	void OnDragEnd ()
