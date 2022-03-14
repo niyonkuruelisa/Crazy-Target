@@ -1,0 +1,245 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void AudioManager::Awake()
+extern void AudioManager_Awake_m8138BCED4D692C83C95626A1A09AB46EA5205569 (void);
+// 0x00000002 System.Void AudioManager::Play(System.String)
+extern void AudioManager_Play_mB69D5512DD0ECB0B853CD681D2282DC78844DE4F (void);
+// 0x00000003 System.Void AudioManager::.ctor()
+extern void AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6 (void);
+// 0x00000004 System.Void AudioManager/<>c__DisplayClass4_0::.ctor()
+extern void U3CU3Ec__DisplayClass4_0__ctor_m3DD23E7EFFDED69B9EAC81FE50CDC950F4B7EC9D (void);
+// 0x00000005 System.Boolean AudioManager/<>c__DisplayClass4_0::<Play>b__0(Sound)
+extern void U3CU3Ec__DisplayClass4_0_U3CPlayU3Eb__0_m2BD9F6F9E24D884441DC3F502D3BA0662509EFBF (void);
+// 0x00000006 System.Void Sound::.ctor()
+extern void Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F (void);
+// 0x00000007 System.Void LoseGameScripts::Start()
+extern void LoseGameScripts_Start_m22CE1E5096D9920944F14728FC31F3A6EE33D119 (void);
+// 0x00000008 System.Void LoseGameScripts::Update()
+extern void LoseGameScripts_Update_m07285DB285DEFD95C6DDE4AD3EE7AF8310EBD1F6 (void);
+// 0x00000009 System.Void LoseGameScripts::OnCollisionStay2D(UnityEngine.Collision2D)
+extern void LoseGameScripts_OnCollisionStay2D_m0B18D113BEE556FB427C8456D0AF215D28132A78 (void);
+// 0x0000000A System.Void LoseGameScripts::.ctor()
+extern void LoseGameScripts__ctor_mC12DE7DBA797AC9DCCDF9D1CBAC31F54AFE25168 (void);
+// 0x0000000B UnityEngine.Vector3 Ball::get_pos()
+extern void Ball_get_pos_m37AADF5E1399888830AB94BA22D5155148DDAF21 (void);
+// 0x0000000C System.Void Ball::Awake()
+extern void Ball_Awake_m044DA5C4B04FE2AD94C704B0705F05361C6EB404 (void);
+// 0x0000000D System.Void Ball::Push(UnityEngine.Vector2)
+extern void Ball_Push_m10EBDA8884221F0AB7C2481A9A979A6C844A6747 (void);
+// 0x0000000E System.Void Ball::ActivateRb()
+extern void Ball_ActivateRb_m1F11B5E8257F7E64BE7227E18053384291BB8474 (void);
+// 0x0000000F System.Void Ball::DesactivateRb()
+extern void Ball_DesactivateRb_m38C8947648ACAC9C375F76278E5B0F53BEB0A2CD (void);
+// 0x00000010 System.Void Ball::.ctor()
+extern void Ball__ctor_mDFF93D8FA13BD70DF4F2FA2B9B402E3B10BD6EDC (void);
+// 0x00000011 System.Void Cup::.ctor()
+extern void Cup__ctor_mD4C69EEF08DC852C372E19BF9FA30A6F4D7B228E (void);
+// 0x00000012 System.Void GameManager::Awake()
+extern void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F (void);
+// 0x00000013 System.Void GameManager::Start()
+extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
+// 0x00000014 System.Void GameManager::Update()
+extern void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (void);
+// 0x00000015 System.Void GameManager::OnDragStart()
+extern void GameManager_OnDragStart_m7FA7F44C9ADAF6A07FB3FBDFA1D8B10523AA626C (void);
+// 0x00000016 System.Void GameManager::OnDrag()
+extern void GameManager_OnDrag_m1E87C0AD26B2AFE5C5F77EFF63BE5A51E0FD1EDA (void);
+// 0x00000017 System.Void GameManager::OnDragEnd()
+extern void GameManager_OnDragEnd_m3BEB5CC0D88C483E0E1125B100DDC8075B2EC79F (void);
+// 0x00000018 System.Void GameManager::.ctor()
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+// 0x00000019 System.Void ObjectGame::.ctor()
+extern void ObjectGame__ctor_m950843F48F59EA611EBA11CD20728E2807A8EBD7 (void);
+// 0x0000001A System.Void Trajectory::Start()
+extern void Trajectory_Start_m6E2E6D002916661265F58B96507FFF6BC8579D65 (void);
+// 0x0000001B System.Void Trajectory::PrepareDots()
+extern void Trajectory_PrepareDots_mC09884180524C18002C4D67FCE191269A199AA92 (void);
+// 0x0000001C System.Void Trajectory::UpdateDots(UnityEngine.Vector3,UnityEngine.Vector2)
+extern void Trajectory_UpdateDots_m61E86D65C892C9B7C1735CCC620089C4060E696E (void);
+// 0x0000001D System.Void Trajectory::Show()
+extern void Trajectory_Show_mB1A4B2BDCDC8903385410574E4985EE2FE345B2E (void);
+// 0x0000001E System.Void Trajectory::Hide()
+extern void Trajectory_Hide_mECE38F383B3614C2B1B896364A6CEDE595F15DC0 (void);
+// 0x0000001F System.Void Trajectory::.ctor()
+extern void Trajectory__ctor_m0730080E91F25895E4E341DC3ED5E3237DDBF444 (void);
+// 0x00000020 System.Void UIAnimations::Start()
+extern void UIAnimations_Start_mDFE5F2C176EC4182DE7B39AEE80398712EDC0AA7 (void);
+// 0x00000021 System.Void UIAnimations::Update()
+extern void UIAnimations_Update_mB7CD43134EE2D786E2C1D19C3AB78B8C125BE797 (void);
+// 0x00000022 System.Void UIAnimations::.ctor()
+extern void UIAnimations__ctor_m46879ED78F1B68822035A997BB5017F832C97D24 (void);
+// 0x00000023 System.Void UIAnimations/<>c__DisplayClass1_0::.ctor()
+extern void U3CU3Ec__DisplayClass1_0__ctor_m4278E9AEF436595DC62A6B5FDAA2D03077FC1B54 (void);
+// 0x00000024 System.Void UIAnimations/<>c__DisplayClass1_0::<Start>b__0()
+extern void U3CU3Ec__DisplayClass1_0_U3CStartU3Eb__0_mDC6BCAF4EFD9A750F571F86D3CB726AAF50091F2 (void);
+// 0x00000025 System.Void UiManager::Start()
+extern void UiManager_Start_m2B96634CBB38D7249C7A0DDA38C0D01F16547CB7 (void);
+// 0x00000026 System.Void UiManager::OnMenuButtonClicked()
+extern void UiManager_OnMenuButtonClicked_m56ED8DEA5F8FCF973EE0A70E9F00BE2546B70A6C (void);
+// 0x00000027 System.Void UiManager::OnRestartButtonClicked()
+extern void UiManager_OnRestartButtonClicked_m34B5508F3E0EAF22195C98CD45C0EC5BBCD65E97 (void);
+// 0x00000028 System.Void UiManager::OnPlayButtonClicked()
+extern void UiManager_OnPlayButtonClicked_m55C3C93150E1AC0C212D361E422AE632551483A9 (void);
+// 0x00000029 System.Void UiManager::GoToLevel2()
+extern void UiManager_GoToLevel2_mD39318D6A161886F4C6D0B1C5D4D11810E1291C6 (void);
+// 0x0000002A System.Void UiManager::GoToLevel3()
+extern void UiManager_GoToLevel3_m538F00EECC5B587B115D13C5ECF7EB395996E8F8 (void);
+// 0x0000002B System.Void UiManager::OnReplayButtonClicked()
+extern void UiManager_OnReplayButtonClicked_m38DD3CF540BE44867CF5E385E51F0B4E73BE6EC1 (void);
+// 0x0000002C System.Void UiManager::OnQuitButtonClicked()
+extern void UiManager_OnQuitButtonClicked_m3A7A58F4B541E85DDBA39CEA4DF77FE1092C4769 (void);
+// 0x0000002D System.Void UiManager::.ctor()
+extern void UiManager__ctor_mF1223D076D6716E82EAF760F5337E462084CD2F0 (void);
+// 0x0000002E System.Void Readme::.ctor()
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+// 0x0000002F System.Void Readme/Section::.ctor()
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+// 0x00000030 System.Void WinGameScripts::Start()
+extern void WinGameScripts_Start_m8FC99AC2A5CB8D32BE4E147679EE2014DB70F069 (void);
+// 0x00000031 System.Void WinGameScripts::Update()
+extern void WinGameScripts_Update_mA9AEEDC2E3D8C2A04E79C67AD947A91491908891 (void);
+// 0x00000032 System.Void WinGameScripts::OnCollisionStay2D(UnityEngine.Collision2D)
+extern void WinGameScripts_OnCollisionStay2D_mFEC0431EC59CBC19B927CD375D4108ABCC021BF1 (void);
+// 0x00000033 System.Void WinGameScripts::.ctor()
+extern void WinGameScripts__ctor_m53D2173C678C0AD211C79D0ED32834A068526D7F (void);
+static Il2CppMethodPointer s_methodPointers[51] = 
+{
+	AudioManager_Awake_m8138BCED4D692C83C95626A1A09AB46EA5205569,
+	AudioManager_Play_mB69D5512DD0ECB0B853CD681D2282DC78844DE4F,
+	AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6,
+	U3CU3Ec__DisplayClass4_0__ctor_m3DD23E7EFFDED69B9EAC81FE50CDC950F4B7EC9D,
+	U3CU3Ec__DisplayClass4_0_U3CPlayU3Eb__0_m2BD9F6F9E24D884441DC3F502D3BA0662509EFBF,
+	Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F,
+	LoseGameScripts_Start_m22CE1E5096D9920944F14728FC31F3A6EE33D119,
+	LoseGameScripts_Update_m07285DB285DEFD95C6DDE4AD3EE7AF8310EBD1F6,
+	LoseGameScripts_OnCollisionStay2D_m0B18D113BEE556FB427C8456D0AF215D28132A78,
+	LoseGameScripts__ctor_mC12DE7DBA797AC9DCCDF9D1CBAC31F54AFE25168,
+	Ball_get_pos_m37AADF5E1399888830AB94BA22D5155148DDAF21,
+	Ball_Awake_m044DA5C4B04FE2AD94C704B0705F05361C6EB404,
+	Ball_Push_m10EBDA8884221F0AB7C2481A9A979A6C844A6747,
+	Ball_ActivateRb_m1F11B5E8257F7E64BE7227E18053384291BB8474,
+	Ball_DesactivateRb_m38C8947648ACAC9C375F76278E5B0F53BEB0A2CD,
+	Ball__ctor_mDFF93D8FA13BD70DF4F2FA2B9B402E3B10BD6EDC,
+	Cup__ctor_mD4C69EEF08DC852C372E19BF9FA30A6F4D7B228E,
+	GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F,
+	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
+	GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41,
+	GameManager_OnDragStart_m7FA7F44C9ADAF6A07FB3FBDFA1D8B10523AA626C,
+	GameManager_OnDrag_m1E87C0AD26B2AFE5C5F77EFF63BE5A51E0FD1EDA,
+	GameManager_OnDragEnd_m3BEB5CC0D88C483E0E1125B100DDC8075B2EC79F,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	ObjectGame__ctor_m950843F48F59EA611EBA11CD20728E2807A8EBD7,
+	Trajectory_Start_m6E2E6D002916661265F58B96507FFF6BC8579D65,
+	Trajectory_PrepareDots_mC09884180524C18002C4D67FCE191269A199AA92,
+	Trajectory_UpdateDots_m61E86D65C892C9B7C1735CCC620089C4060E696E,
+	Trajectory_Show_mB1A4B2BDCDC8903385410574E4985EE2FE345B2E,
+	Trajectory_Hide_mECE38F383B3614C2B1B896364A6CEDE595F15DC0,
+	Trajectory__ctor_m0730080E91F25895E4E341DC3ED5E3237DDBF444,
+	UIAnimations_Start_mDFE5F2C176EC4182DE7B39AEE80398712EDC0AA7,
+	UIAnimations_Update_mB7CD43134EE2D786E2C1D19C3AB78B8C125BE797,
+	UIAnimations__ctor_m46879ED78F1B68822035A997BB5017F832C97D24,
+	U3CU3Ec__DisplayClass1_0__ctor_m4278E9AEF436595DC62A6B5FDAA2D03077FC1B54,
+	U3CU3Ec__DisplayClass1_0_U3CStartU3Eb__0_mDC6BCAF4EFD9A750F571F86D3CB726AAF50091F2,
+	UiManager_Start_m2B96634CBB38D7249C7A0DDA38C0D01F16547CB7,
+	UiManager_OnMenuButtonClicked_m56ED8DEA5F8FCF973EE0A70E9F00BE2546B70A6C,
+	UiManager_OnRestartButtonClicked_m34B5508F3E0EAF22195C98CD45C0EC5BBCD65E97,
+	UiManager_OnPlayButtonClicked_m55C3C93150E1AC0C212D361E422AE632551483A9,
+	UiManager_GoToLevel2_mD39318D6A161886F4C6D0B1C5D4D11810E1291C6,
+	UiManager_GoToLevel3_m538F00EECC5B587B115D13C5ECF7EB395996E8F8,
+	UiManager_OnReplayButtonClicked_m38DD3CF540BE44867CF5E385E51F0B4E73BE6EC1,
+	UiManager_OnQuitButtonClicked_m3A7A58F4B541E85DDBA39CEA4DF77FE1092C4769,
+	UiManager__ctor_mF1223D076D6716E82EAF760F5337E462084CD2F0,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	WinGameScripts_Start_m8FC99AC2A5CB8D32BE4E147679EE2014DB70F069,
+	WinGameScripts_Update_mA9AEEDC2E3D8C2A04E79C67AD947A91491908891,
+	WinGameScripts_OnCollisionStay2D_mFEC0431EC59CBC19B927CD375D4108ABCC021BF1,
+	WinGameScripts__ctor_m53D2173C678C0AD211C79D0ED32834A068526D7F,
+};
+static const int32_t s_InvokerIndices[51] = 
+{
+	4208,
+	3407,
+	4208,
+	4208,
+	2918,
+	4208,
+	4208,
+	4208,
+	3407,
+	4208,
+	4199,
+	4208,
+	3483,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	1997,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	4208,
+	3407,
+	4208,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	51,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
